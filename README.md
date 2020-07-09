@@ -1,2 +1,3 @@
-# vue-Blizzard
-仿暴雪游戏商城
+# vue-blizzard
+
+## 仿暴雪游戏商城
