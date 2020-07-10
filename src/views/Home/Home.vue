@@ -1,14 +1,21 @@
 <template>
-  <div class="ListGameIco">
-    <div class="ListGame-wrapper">
-      <div class="bt-wrapper">
-        <p>暴雪游戏</p>
+  <div class="body">
+    <div class="main">
+      <div class="ListGameIco">
+        <div class="ListGame-wrapper">
+          <div class="bt-wrapper">
+            <p>暴雪游戏</p>
+          </div>
+          <ul class="listIco-wrapper">
+            <li class="listIco" v-for="(item,index) in ListIcon" :key="index" :title="item.GameName">
+              <game-icon :size="1" :type="item.type"></game-icon>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul class="listIco-wrapper">
-        <li class="listIco" v-for="(item,index) in ListIcon" :key="index" :title="item.GameName">
-          <game-icon :size="1" :type="item.type"></game-icon>
-        </li>
-      </ul>
+    </div>
+    <div class="footer">
+      <v-footer></v-footer>
     </div>
   </div>
 </template>
@@ -16,6 +23,7 @@
 <script>
 // @ is an alias to /src
 import GameIcon from '@/components/GameIcon/GameIcon'
+import VFooter from '@/components/footer/footer'
 
 export default {
   name: 'Home',
@@ -74,6 +82,7 @@ export default {
     }
   },
   components: {
+    VFooter,
     GameIcon
   }
 }
@@ -111,5 +120,8 @@ export default {
     list-style: none;
     display: inline-block;
     padding-top: 10px;
+  }
+  .main {
+    min-height: 1200px;
   }
 </style>

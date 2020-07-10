@@ -30,7 +30,7 @@
         width: 20px;
         height: 20px;
         background-size: 20px 20px;
-        background-image: url(ia_200000000.png);
+        background-image: url("ia_200000000.png");
     }
     .ico-ia_200000001 {
         width: 20px;
