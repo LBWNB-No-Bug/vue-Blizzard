@@ -1,0 +1,59 @@
+{
+	"data": {
+		"Carousel": [
+			{
+				"GameName": "炉石传说",
+				"bgImgUrl": "https://product.cnc.blzstatic.cn//5a/303460f4a8ae4b0ac757d6ff4a328027-WoW_9.0_ProductPage_Shadowlands_Thumbnail_Screenshot2_MN01.jpg",
+				"icon": "...",
+				"announcement": "破碎世界的复仇",
+				"Jump": "http:1223"
+			}
+		],
+		"ListIcon": [
+			{
+				"GameName": "炉石传说",
+				"icon": "...",
+				"type": "2",
+				"Jump": "http:1223"
+			}
+		],
+		"ListGame": [
+			{
+				"recommend": [
+					{
+						"bgImgUrl": "~~",
+						"Jump": "http:1223",
+						"text": "魔兽世界：暗影国度 数字礼包"
+					}
+				]
+			},
+			{
+				"Featured": [
+					{
+						"bgImgUrl": "~~",
+						"Jump": "http:1223",
+						"text": "魔兽世界：暗影国度 数字礼包"
+					}
+				]
+			},
+			{
+				"Now": [
+					{
+						"bgImgUrl": "~~",
+						"Jump": "http:1223",
+						"text": "魔兽世界：暗影国度 数字礼包"
+					}
+				]
+			},
+			{
+				"Popular": [
+					{
+						"bgImgUrl": "~~",
+						"Jump": "http:1223",
+						"text": "魔兽世界：暗影国度 数字礼包"
+					}
+				]
+			}
+		]
+	}
+}
