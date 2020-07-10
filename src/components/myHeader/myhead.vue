@@ -29,7 +29,7 @@
   </header>
 
 </template>
-<style>
+<style >
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +45,7 @@ header {
 }
 .logo_icon {
   display: inline-block;
-  background: url(../../static/img/logo.png) no-repeat;
+  background: url(../../../static/img/logo.png) no-repeat;
   background-size: 100% 100%;
   width: 100px;
   height: 50px;

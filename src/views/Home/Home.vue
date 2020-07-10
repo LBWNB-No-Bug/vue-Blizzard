@@ -1,29 +1,34 @@
 <template>
-  <div>
+  <div class="body">
     <myheader></myheader>
-    <div class="ListGameIco">
-      <div class="ListGame-wrapper">
-        <div class="bt-wrapper">
-          <p>暴雪游戏</p>
+    <div class="main">
+      <div class="ListGameIco">
+        <div class="ListGame-wrapper">
+          <div class="bt-wrapper">
+            <p>暴雪游戏</p>
+          </div>
+          <ul class="listIco-wrapper">
+            <li class="listIco"
+                v-for="(item,index) in ListIcon"
+                :key="index"
+                :title="item.GameName">
+              <game-icon :size="1"
+                         :type="item.type"></game-icon>
+            </li>
+          </ul>
         </div>
-        <ul class="listIco-wrapper">
-          <li class="listIco"
-              v-for="(item,index) in ListIcon"
-              :key="index"
-              :title="item.GameName">
-            <game-icon :size="1"
-                       :type="item.type"></game-icon>
-          </li>
-        </ul>
       </div>
     </div>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import GameIcon from '@/components/GameIcon/GameIcon'
-import myheader from '@/components/myhead.vue'
+import myheader from '@/components/myHeader/myhead.vue'
+import VFooter from "@/components/footer/footer";
+
 export default {
   name: 'Home',
   data () {
@@ -32,55 +37,56 @@ export default {
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "2",
+          type: 2,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "3",
+          type: 3,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "4",
+          type: 4,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "5",
+          type: 5,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "2",
+          type: 2,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "3",
+          type: 3,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "4",
+          type: 4,
           Jump: "http:1223"
         },
         {
           GameName: "炉石传说",
           icon: "...",
-          type: "5",
+          type: 5,
           Jump: "http:1223"
         },
       ]
     }
   },
   components: {
+    VFooter,
     GameIcon,
     myheader
   }
@@ -123,4 +129,7 @@ export default {
   display: inline-block;
   padding-top: 10px;
 }
+  .main {
+    min-height: 1200px;
+  }
 </style>
