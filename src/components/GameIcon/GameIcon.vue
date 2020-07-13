@@ -7,10 +7,16 @@
         name:'game-icon',
         props: {
             size: {
-                type: Number
+                type: Number,
+                default() {
+                    return 0
+                }
             },
             type: {
-                type: Number
+                type: Number,
+                default() {
+                    return 1;
+                }
             }
         },
         computed: {
@@ -117,9 +123,9 @@
         background-image: url("ia_200000015.png");
     }
     .ico-ia_200000016 {
-        width: 20px;
-        height: 20px;
-        background-size: 20px 20px;
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
         background-image: url("ia_200000016.png");
     }
     .ico-ia_200000017 {

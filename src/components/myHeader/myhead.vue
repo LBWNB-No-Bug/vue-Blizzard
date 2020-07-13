@@ -1,5 +1,4 @@
 <template>
-
   <header>
     <div class="w">
       <div class="left">
@@ -35,7 +34,7 @@
   padding: 0;
 }
 header {
-  background-color: #000;
+  background-color: #062959;
   width: 100%;
 }
 .w {

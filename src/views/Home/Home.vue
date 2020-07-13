@@ -26,64 +26,23 @@
 <script>
 // @ is an alias to /src
 import GameIcon from '@/components/GameIcon/GameIcon'
-import myheader from '@/components/myHeader/myhead.vue'
-import VFooter from "@/components/footer/footer";
+import myheader from '@/components/myHeader/myhead'
+import VFooter from '@/components/footer/footer'
+import {getHome} from '@/api'
 
 export default {
   name: 'Home',
   data () {
     return {
-      ListIcon: [
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 2,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 3,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 4,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 5,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 2,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 3,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 4,
-          Jump: "http:1223"
-        },
-        {
-          GameName: "炉石传说",
-          icon: "...",
-          type: 5,
-          Jump: "http:1223"
-        },
-      ]
+      Carousel: [],
+      ListIcon: [],
     }
+  },
+  created() {
+    getHome().then( (res) => {
+      this.Carousel = res.data.Carousel
+      this.ListIcon = res.data.ListIcon
+    })
   },
   components: {
     VFooter,
@@ -94,17 +53,18 @@ export default {
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
+.body {
+  background-color: #062959;
 }
 .ListGameIco {
   width: 100%;
   height: 66px;
-  background-color: #42b983;
+  /*background-color: #42b983;*/
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 .ListGame-wrapper {
-  width: 500px;
+  width: 600px;
   height: 40px;
   margin: 0 auto;
   padding-top: 5px;
@@ -129,7 +89,7 @@ export default {
   display: inline-block;
   padding-top: 10px;
 }
-  .main {
-    min-height: 1200px;
-  }
+.main {
+  min-height: 1200px;
+}
 </style>

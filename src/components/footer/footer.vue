@@ -1,6 +1,6 @@
 <template>
 	<div id="footer">
-		<img :src="url" height="100" width="170"/>
+		<img src="../../../static/img/logo.png" height="100" width="170"/>
 		<div class="mtbt20">
 			<ul>
 				<li><a href="#" class="f-17">工作机会</a></li>
@@ -89,12 +89,7 @@
 
 <script>
 	export default {
-		name: "v-footer",
-		data() {
-			return {
-				url:'@/components/footer/footerlogo.png'
-			}
-		}
+		name: "v-footer"
 	}
 </script>
 
