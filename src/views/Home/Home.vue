@@ -2,7 +2,7 @@
   <div class="body">
     <myheader></myheader>
     <div class="main">
-      <carousel></carousel>
+      <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">
         <div class="ListGame-wrapper">
           <div class="bt-wrapper">
@@ -37,8 +37,8 @@ export default {
   name: 'Home',
   data () {
     return {
-      Carousel: [],
-      ListIcon: [],
+      Carousel: {},
+      ListIcon: {}
     }
   },
   created() {
