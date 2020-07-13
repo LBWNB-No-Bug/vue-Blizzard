@@ -2,6 +2,7 @@
   <div class="body">
     <myheader></myheader>
     <div class="main">
+      <carousel></carousel>
       <div class="ListGameIco">
         <div class="ListGame-wrapper">
           <div class="bt-wrapper">
@@ -28,6 +29,8 @@
 import GameIcon from '@/components/GameIcon/GameIcon'
 import myheader from '@/components/myHeader/myhead'
 import VFooter from '@/components/footer/footer'
+import Carousel from '@/components/Carousel/carousel'
+
 import {getHome} from '@/api'
 
 export default {
@@ -47,7 +50,8 @@ export default {
   components: {
     VFooter,
     GameIcon,
-    myheader
+    myheader,
+    Carousel
   }
 }
 </script>
@@ -91,5 +95,13 @@ export default {
 }
 .main {
   min-height: 1200px;
+}
+.el-carousel__indicators {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  top: 270px;
 }
 </style>
