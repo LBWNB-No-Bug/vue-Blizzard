@@ -1,6 +1,6 @@
 <template>
 	<div id="footer">
-		<img :src="url" height="100" width="170"/>
+		<img :src="this.logo" height="100" width="170"/>
 		<div class="mtbt20">
 			<ul>
 				<li><a href="#" class="f-17">工作机会</a></li>
@@ -90,24 +90,19 @@
 <script>
 	export default {
 		name: "v-footer",
-		data() {
-			return {
-				url:'@/components/footer/footerlogo.png'
-			}
+		props: {
+			logo:""
 		}
 	}
 </script>
 
-<style scoped>
-* {
-	margin: 0;
-	padding: 0;
-}
+<style>
 .clearall {
 	clear: both;
 }
 #footer{
 	background-color: #062959;
+	text-align: center;
 }
 p,
 a {

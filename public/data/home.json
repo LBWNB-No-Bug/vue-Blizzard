@@ -1,59 +1,451 @@
 {
-	"data": {
-		"Carousel": [
-			{
-				"GameName": "炉石传说",
-				"bgImgUrl": "https://product.cnc.blzstatic.cn//5a/303460f4a8ae4b0ac757d6ff4a328027-WoW_9.0_ProductPage_Shadowlands_Thumbnail_Screenshot2_MN01.jpg",
-				"icon": "...",
-				"announcement": "破碎世界的复仇",
-				"Jump": "http:1223"
-			}
-		],
-		"ListIcon": [
-			{
-				"GameName": "炉石传说",
-				"icon": "...",
-				"type": "2",
-				"Jump": "http:1223"
-			}
-		],
-		"ListGame": [
-			{
-				"recommend": [
-					{
-						"bgImgUrl": "~~",
-						"Jump": "http:1223",
-						"text": "魔兽世界：暗影国度 数字礼包"
-					}
-				]
-			},
-			{
-				"Featured": [
-					{
-						"bgImgUrl": "~~",
-						"Jump": "http:1223",
-						"text": "魔兽世界：暗影国度 数字礼包"
-					}
-				]
-			},
-			{
-				"Now": [
-					{
-						"bgImgUrl": "~~",
-						"Jump": "http:1223",
-						"text": "魔兽世界：暗影国度 数字礼包"
-					}
-				]
-			},
-			{
-				"Popular": [
-					{
-						"bgImgUrl": "~~",
-						"Jump": "http:1223",
-						"text": "魔兽世界：暗影国度 数字礼包"
-					}
-				]
-			}
-		]
-	}
+  "Carousel": [
+    {
+      "GanmeName": "魔兽世界",
+      "bgImgUrl": "//product.cnc.blzstatic.cn//74/4b382158fcc7d9aeb92c30fde57e2812-WoW_Steamscale_Incinerator_Plus_Panda_Cub_Shop_Banners_1900x300_TS01.jpg",
+      "icon": "//product.cnc.blzstatic.cn//f87/f07df7142c9ec15de82837176b2bb7c9-battle-for-azeroth-cn-clipped.png",
+      "announcement": "在《魔兽世界》中驾驭坐骑,让宠物伴你漫游《魔兽世界》经典怀旧服，畅享180天游戏时间",
+      "Jump": "#"
+    },
+    {
+      "GanmeName": "魔兽世界",
+      "bgImgUrl": "//product.cnc.blzstatic.cn//29/50817669fbbc553777b407401a98faa5-WoW_Summer_Sale_Shop_Banners_TS011900x300_TS01.jpg",
+      "icon": "//product.cnc.blzstatic.cn//f87/f07df7142c9ec15de82837176b2bb7c9-battle-for-azeroth-cn-clipped.png",
+      "announcement": "截至7月20日，坐骑、宠物等精选商品立享五折优惠",
+      "Jump": "#"
+    },
+    {
+      "GanmeName": "炉石传说",
+      "bgImgUrl": "//product.cnc.blzstatic.cn//fc5/71654210aac15bb5eeb9048fb33b9020-1900x300.jpg",
+      "icon": "//product.cnc.blzstatic.cn//64/ac8cce7590f19a85b0dfc5c52c1eb12f-HS17_AoO_Logo_CN_wHS.png",
+      "announcement": "全新扩展包",
+      "Jump": "#"
+    }
+  ],
+  "ListIcon": [
+    {
+      "GameName": "守望先锋",
+      "icon": "...",
+      "type": 0,
+      "Jump": "#"
+    },
+    {
+      "GameName": "魔兽世界",
+      "icon": "...",
+      "type": 1,
+      "Jump": "#"
+    },
+    {
+      "GameName": "炉石传说",
+      "icon": "...",
+      "type": 2,
+      "Jump": "#"
+    },
+    {
+      "GameName": "风暴英雄",
+      "icon": "...",
+      "type": 3,
+      "Jump": "#"
+    },
+    {
+      "GameName": "魔兽争霸Ⅲ",
+      "icon": "...",
+      "type": 4,
+      "Jump": "#"
+    },
+    {
+      "GameName": "暗黑破坏神Ⅲ",
+      "icon": "...",
+      "type": 5,
+      "Jump": "#"
+    },
+    {
+      "GameName": "星际争霸Ⅱ",
+      "icon": "...",
+      "type": 7,
+      "Jump": "#"
+    },
+    {
+      "GameName": "星际争霸",
+      "icon": "...",
+      "type": 8,
+      "Jump": "#"
+    }
+  ],
+  "recommend": [
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
+      "Jump": "http:1223",
+      "text": "《魔兽世界®:暗影国度》数字礼包",
+      "iconType": 1,
+      "Golden": "立即购买",
+      "white": "礼包",
+      "price": 198
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//78/5783b3029305aab6266a0eb765889cfa-WoW_Steamscale_Incinerator_Plus_Panda_Cub_Product_Page_prod-card-vert_TS01.jpg",
+      "Jump": "http:1223",
+      "text": "《魔兽世界®》:游戏时间",
+      "iconType": 1,
+      "Golden": "欢迎进入《魔兽世界》和《魔兽世界》经典怀旧服！",
+      "white": "游戏时间",
+      "price": 75
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//2/2f4190e5b4ee1680a72680ccd65de657-prod-card-vert.jpg",
+      "Jump": "http:1223",
+      "text": "炉石传说®:外域的灰烬",
+      "iconType": 2,
+      "Golden": "最新扩展包!",
+      "white": "卡牌包",
+      "price": 180
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//f89/c074270c5024a5bb627d46cddf024dad-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《炉石传说®》",
+      "iconType": 2,
+      "Golden": "",
+      "white": "策略类卡牌游戏",
+      "price": "免费游戏"
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fe6/89fa735b8b71abd3660695dab3e937ae-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《守望先锋®》:传奇典藏版",
+      "iconType": 0,
+      "Golden": "",
+      "white": "团队设计游戏",
+      "price": 158
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fad/49a7442866124870a545ca01e168a74e-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《星际争霸Ⅱ》",
+      "iconType": 7,
+      "Golden": "",
+      "white": "即时策略游戏",
+      "price": "免费游戏"
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//f8c/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《风暴英雄™》",
+      "iconType": 3,
+      "Golden": "",
+      "white": "多人在线战术竞技游戏",
+      "price": "免费游戏"
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//4b/cd69d541bb3ba43461c757ecc7755bfd-HS16_product-pageprod-card-vert-pack.jpg",
+      "Jump": "http:1223",
+      "text": "《巨龙降临》",
+      "iconType": 2,
+      "Golden": "",
+      "white": "卡牌包",
+      "price": 180
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//27/ac8817e4c0cfc2f6b4fd66d99cf4ce88-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《守望先锋®》游戏货币:赠送补给",
+      "iconType": 0,
+      "Golden": "",
+      "white": "可解锁内容",
+      "price": 12
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fd5/f57ba9cc04062c28cdffb600d600d17a-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《暗黑破坏神Ⅲ》:《夺魂之镰》",
+      "iconType": 5,
+      "Golden": "",
+      "white": "动作角色扮演游戏",
+      "price": 118
+    }
+  ],
+  "Featured": [
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
+      "Jump": "http:1223",
+      "text": "《魔兽世界®:暗影国度》数字礼包",
+      "iconType": 1,
+      "Golden": "立即购买",
+      "white": "礼包",
+      "price": 198
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fb7/e21ed11c2dedfd884e0aea0df46cd4c6-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《星际争霸Ⅱ》:战争宝箱6",
+      "iconType": 7,
+      "Golden": "下架时间:2020年9月2日",
+      "white": "礼包",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//27/ac8817e4c0cfc2f6b4fd66d99cf4ce88-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《守望先锋®》游戏货币:赠送补给",
+      "iconType": 0,
+      "Golden": "",
+      "white": "可解锁内容",
+      "price": 12
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//2/2f4190e5b4ee1680a72680ccd65de657-prod-card-vert.jpg",
+      "Jump": "http:1223",
+      "text": "炉石传说®:外域的灰烬",
+      "iconType": 2,
+      "Golden": "最新扩展包!",
+      "white": "卡牌包",
+      "price": 180
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//ff6/856907e8e87225f5ed1e891655283bed-HS_CN_Rune_Shop_Product_Pages_prod-card-vert_TS01.jpg",
+      "Jump": "http:1223",
+      "text": "符文石",
+      "iconType": 2,
+      "Golden": "",
+      "white": "可解锁内容",
+      "price": 30
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fe6/89fa735b8b71abd3660695dab3e937ae-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《守望先锋®》:传奇典藏版",
+      "iconType": 0,
+      "Golden": "",
+      "white": "团队设计游戏",
+      "price": 158
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//5f/3d885e4077747a04a646186a17607769-WC3R_2020_Orc_Art_Shop_Product_Page_Assets_prod-card-vert_TS03.jpg",
+      "Jump": "http:1223",
+      "text": "《魔兽争霸Ⅲ》:重制版",
+      "iconType": 4,
+      "Golden": "立即购买!",
+      "white": "即时策略游戏",
+      "price": 168
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fad/f857b83256b2a93ae6ac56c85050c99f-HS_16.2_Prepurch_prod-card-vert_BK01.png",
+      "Jump": "http:1223",
+      "text": "\"迦拉克隆的觉醒\"冒险模式",
+      "iconType": 2,
+      "Golden": "",
+      "white": "冒险模式",
+      "price": 128
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//4b/cd69d541bb3ba43461c757ecc7755bfd-HS16_product-pageprod-card-vert-pack.jpg",
+      "Jump": "http:1223",
+      "text": "巨龙降临",
+      "iconType": 2,
+      "Golden": "",
+      "white": "卡牌包",
+      "price": 180
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//26/fe94b086ae36a98b7e2974a7841d51db-HS_CN_Orb_Shop_Product_Pages_prod-card-vert_TS01.jpg",
+      "Jump": "http:1223",
+      "text": "10奥术宝珠",
+      "iconType": 2,
+      "Golden": "",
+      "white": "可解锁内容",
+      "price": 1
+    }
+  ],
+  "Now": [
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//78/5783b3029305aab6266a0eb765889cfa-WoW_Steamscale_Incinerator_Plus_Panda_Cub_Product_Page_prod-card-vert_TS01.jpg",
+      "Jump": "http:1223",
+      "text": "《魔兽世界®》:游戏时间",
+      "iconType": 1,
+      "Golden": "欢迎进入《魔兽世界》和《魔兽世界》经典怀旧服！",
+      "white": "游戏世界",
+      "price": 75
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//2d/efecfb33b64f9a2c9aee1aaffa530aeb-WoW_Steamscale_Incinerator_StandAlone_prod-card-vert_TS01.jpg",
+      "Jump": "http:1223",
+      "text": "汽鳞焚化者&熊猫宝宝",
+      "iconType": 1,
+      "Golden": "购买180天游戏时间即可获赠坐骑和宠物",
+      "white": "虚拟坐骑",
+      "price": 120
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//f9c/fa76918a1c71500336aecefb449de8d7-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "暴雪游戏点数",
+      "iconType": -1,
+      "Golden": "购买180天游戏时间即可获赠坐骑和宠物",
+      "white": "虚拟坐骑",
+      "price": 120
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fd0/e63fca38e4e76109b2711340158250ca-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《守望先锋®》:数字畅玩版",
+      "iconType": 0,
+      "Golden": "",
+      "white": "游戏服务",
+      "price": "了解详情"
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fac/7afc1af7ea15e5eb0841ea1aa988aa4a-WoW_Quillen_Mount_prod-card-vert_TS02.jpg",
+      "Jump": "http:1223",
+      "text": "皇家魁麟",
+      "iconType": 1,
+      "Golden": "潘达利亚威严的飞行坐骑回归了",
+      "white": "虚拟坐骑",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//53/694a216643d2dbc9c817eeb026c75966-WoW_Quillen_Cub_Product_Page_Assets_prod-card-vert_TS02.jpg",
+      "Jump": "http:1223",
+      "text": "幸运魁麟幼崽",
+      "iconType": 1,
+      "Golden": "潘达利亚的迷人小宠物回归了!",
+      "white": "虚拟坐骑",
+      "price": 22
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//4a/fb1d15ebc4f099f6b3c436d48d599bc6-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《暗黑破坏神Ⅲ》:\"死神世\"内容包",
+      "iconType": 5,
+      "Golden": "需要《暗黑破坏神Ⅲ:夺魂之镰》",
+      "white": "资料片",
+      "price": 58
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fd5/f57ba9cc04062c28cdffb600d600d17a-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《暗黑破坏神Ⅲ》:《夺魂之镰》",
+      "iconType": 5,
+      "Golden": "",
+      "white": "动作角色扮演游戏",
+      "price": 118
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//19/36b3ac6cd3bdd3aa40869ff4c812fb6c-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "战网昵称修改服务",
+      "iconType": -1,
+      "Golden": "",
+      "white": "游戏服务",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//b/f798a198a0861d2ab3e2e672b7ed6091-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "指挥官:诺娃",
+      "iconType": 7,
+      "Golden": "",
+      "white": "指挥官",
+      "price": 25
+    }
+  ],
+  "Popular": [
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//f9c/fa76918a1c71500336aecefb449de8d7-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "暴雪游戏点数",
+      "iconType": -1,
+      "Golden": "",
+      "white": "",
+      "price": "了解详情"
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fac/7afc1af7ea15e5eb0841ea1aa988aa4a-WoW_Quillen_Mount_prod-card-vert_TS02.jpg",
+      "Jump": "http:1223",
+      "text": "皇家魁麟",
+      "iconType": 1,
+      "Golden": "潘达利亚威严的飞行坐骑回归了",
+      "white": "虚拟坐骑",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fd7/b7bdceac1dd1435fa7fa61337e6c77d5-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "《守望先锋®》联赛代币",
+      "iconType": 0,
+      "Golden": "",
+      "white": "可解锁内容",
+      "price": 30
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//ff6/856907e8e87225f5ed1e891655283bed-HS_CN_Rune_Shop_Product_Pages_prod-card-vert_TS01.jpg",
+      "Jump": "http:1223",
+      "text": "符文石",
+      "iconType": 2,
+      "Golden": "",
+      "white": "可解锁内容",
+      "price": 30
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//53/694a216643d2dbc9c817eeb026c75966-WoW_Quillen_Cub_Product_Page_Assets_prod-card-vert_TS02.jpg",
+      "Jump": "http:1223",
+      "text": "幸运魁麟幼崽",
+      "iconType": 1,
+      "Golden": "潘达利亚的迷人小宠物回归了",
+      "white": "虚拟宠物",
+      "price": 22
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//13/8090b0a56d99cc973bc4d320154cf792-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "魔法灵龙",
+      "iconType": 1,
+      "Golden": "",
+      "white": "虚拟坐骑",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//70/3ec6120b0071633f5d7ec83a36df1a00-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "守护巨龙之心",
+      "iconType": 1,
+      "Golden": "",
+      "white": "虚拟坐骑",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//6/47a05ae6f1951c34dd0395b8fec03398-NAEU-WoW_LunarNewYear2019_Standalone_Product_Vertical_MN01.png",
+      "Jump": "http:1223",
+      "text": "霍格鲁斯,鸿运亥客",
+      "iconType": 1,
+      "Golden": "霍格鲁斯坐骑现已回归，并将在夏日促销结束后继续在商城出售",
+      "white": "虚拟坐骑",
+      "price": 120
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//fad/50618bd564c8228875fc8d218adb79d2-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "微光逐星者",
+      "iconType": 1,
+      "Golden": "",
+      "white": "虚拟坐骑",
+      "price": 60
+    },
+    {
+      "bgImgUrl": "http://product.cnc.blzstatic.cn//f95/22b4805ca031b1ba37a24810733047c1-prod-card-tall.jpg",
+      "Jump": "http:1223",
+      "text": "战火梦魇兽",
+      "iconType": 1,
+      "Golden": "",
+      "white": "虚拟坐骑",
+      "price": 90
+    }
+  ],
+  "Logo": "https://www.battlenet.com.cn/login/static/images/toolkit/defaults/logos/blizzard/blizzard-default.1C4OH.png",
+  "header": [
+    {
+      "size": 4,
+      "type": 1,
+      "text": "战网昵称修改服务"
+    }
+  ]
 }

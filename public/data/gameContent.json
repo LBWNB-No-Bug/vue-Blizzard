@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "title": "新玩家起步",
+      "text": "魔兽世界新玩家？从这里开始吧。",
+      "content": [
+        {
+          "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
+          "Jump": "#",
+          "text": "《魔兽世界®:暗影国度》数字礼包",
+          "iconType": 1,
+          "Golden": "立即购买",
+          "white": "礼包",
+          "price": 198
+        },
+        {
+          "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
+          "Jump": "#",
+          "text": "《魔兽世界®:暗影国度》数字礼包",
+          "iconType": 1,
+          "Golden": "立即购买",
+          "white": "礼包",
+          "price": 198
+        }
+      ]
+    }
+  ]
+}
