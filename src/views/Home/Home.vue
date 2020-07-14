@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-    <myheader></myheader>
+    <myheader :logo="logo"></myheader>
     <div class="main">
       <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">

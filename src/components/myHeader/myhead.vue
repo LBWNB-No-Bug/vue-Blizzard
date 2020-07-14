@@ -2,7 +2,7 @@
   <header>
     <div class="w">
       <div class="left">
-        <i class="logo_icon"></i>
+        <i class="logo_icon" :style="{backgroundImage: 'url(' + this.logo + ')'}"></i>
         <div class="nav_lable">商城</div>
       </div>
       <div class="right">
@@ -28,6 +28,13 @@
   </header>
 
 </template>
+<script>
+  export default {
+    props: {
+      logo:""
+    }
+  }
+</script>
 <style >
 header {
   background-color: #062959;
@@ -40,7 +47,7 @@ header {
 }
 .logo_icon {
   display: inline-block;
-  background: url(../../../static/img/logo.png) no-repeat;
+  background: no-repeat;
   background-size: 100% 100%;
   width: 100px;
   height: 50px;
