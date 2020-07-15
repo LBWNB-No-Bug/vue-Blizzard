@@ -27,19 +27,16 @@
         props: {
             Carousel: {}
         },
+        created() {
+            this.Am(0)
+        },
         methods: {
             Am(key) {
                 this.$refs.imgAms[key].style.transform = `scale(${SCALE})`
+                this.$refs.imgAms[key].style.transition = 'all 1.5s'
                 this.$refs.imgAms.forEach((node, index) => {
                     if (index !== key) {
                         node.style.transform = 'scale(1)'
-                    }
-                })
-                this.$refs.divAms[key].style.transform = '{ all 1s }'
-                this.isShow[key] = true
-                this.isShow.forEach((item, index) => {
-                    if(index !== key) {
-                        item = false
                     }
                 })
             }
@@ -67,7 +64,6 @@
     .box {
         position: relative;
         top: 10px;
-        transition: all 1s;
     }
 
     .img {
@@ -78,7 +74,6 @@
         left: 0;
         top: 0;
         overflow: hidden;
-        transition: all 1s;
     }
 
     .icon {
