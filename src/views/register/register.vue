@@ -9,9 +9,9 @@
 		</div>
 		<div class="clearall"></div>
 		<form class="from-reg">
-			<input type="text" v-model="userid" placeholder="身份证号码" /></br>
-			<input type="text" v-model="username" placeholder="姓名" /></br>
-			<input type="email" v-model="useremail" placeholder="电子邮箱" /></br>
+			<input type="text" v-model="userid" placeholder="身份证号码" /><br>
+			<input type="text" v-model="username" placeholder="姓名" /><br>
+			<input type="email" v-model="useremail" placeholder="电子邮箱" /><br>
 			<input type="password" v-model="userpwd" placeholder="密码" />
 			<div class="phone_num">
 				<input class="phone1" type="text"  disabled placeholder="+86"></input>
@@ -35,8 +35,8 @@
 				<p>点击“免费注册暴雪游戏通行证”即表示我同意并接受<a  target="_blank" :href="hrlink">暴雪战网最终用户许可协议<i class="el-icon-link"></i></a>。</p>
 			</div>
 		</form>
-		
-		
+
+
 	</div>
 </template>
 
