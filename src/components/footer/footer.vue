@@ -109,8 +109,8 @@ a {
 	text-transform: uppercase;
 }
 p {
-	margin-block-start: 0em;
-	margin-block-end: 0em;
+	margin-block-start: 0;
+	margin-block-end: 0;
 	font-size: 13px;
 	color: rgba(255,255,255,0.3) ;
 }
@@ -129,7 +129,6 @@ a {
 	text-align: center;
 	font-weight: 400;
 	line-height: 1.4;
-	text-align: center;
 	color: #fff;
 }
 .el-breadcrumb {

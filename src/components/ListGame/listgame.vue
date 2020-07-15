@@ -33,7 +33,6 @@
     .bt {
         color: white;
         font-weight: 300;
-        padding-left: 13px;
     }
 
     .list-wrapper {

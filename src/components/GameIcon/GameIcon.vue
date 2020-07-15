@@ -112,7 +112,7 @@
 
     .ico-ia_200000028 {background-image: url("ia_200000028.svg");}
 
-    .ico-ia_200000029 {background-image: url("ia_200000029.svg");}
+    .ico-ia_200000030 {background-image: url("ia_200000030.svg");}
 
     .ico-ia_200000040 {background-image: url("ia_200000040.svg");}
 

@@ -13,12 +13,22 @@
                   class="right"
                   index="4">
         <template slot="title">我的账号</template>
-        <el-menu-item>
-          <el-button class="login_but"
+        <el-menu-item class="popup">
+          <router-link to="/login">
+            <el-button class="login_but"
                      type="primary">登陆</el-button>
+          </router-link>
         </el-menu-item>
-        <el-menu-item class="account"> 账户 </el-menu-item>
-        <el-menu-item class="register"> 免费注册</el-menu-item>
+        <el-menu-item class="account">
+          <game-icon :size="3"
+                     :type="0"></game-icon> 账户
+        </el-menu-item>
+        <router-link to="/register">
+          <el-menu-item class="register">
+            <game-icon :size="3"
+                       :type="0"></game-icon> 免费注册
+          </el-menu-item>
+        </router-link>
       </el-submenu>
     </el-menu>
   </nav>
@@ -27,8 +37,9 @@
 
 <script>
 
-
+import GameIcon from '@/components/GameIcon/GameIcon'
 export default {
+
   data () {
     return {
       activeIndex: '1',
@@ -39,6 +50,9 @@ export default {
     handleSelect (key, keyPath) {
       console.log(key, keyPath);
     }
+  },
+  components: {
+    GameIcon
   }
 }
 
@@ -52,10 +66,18 @@ export default {
 .login_but {
   height: 40px;
   width: 200px;
-  border-radius: 0px;
+  border-radius: 0;
+  text-decoration: none;
+}
+body{
+  min-width: 1800px;
 }
 .myhead {
-  width: 100%;
+  min-width: 1600px;
+  background-image: url("bg.png");
+}
+.myhead a{
+  text-decoration: none;
 }
 .myhead .myicon {
   background: url(https://www.battlenet.com.cn/login/static/images/toolkit/defaults/logos/blizzard/blizzard-default.1C4OH.png)
@@ -112,7 +134,8 @@ export default {
   height: auto;
   background-color: rgba(0, 0, 0, 0);
 }
-.right .el-menu--popup-bottom-start {
+
+.myhead .right .el-menu--popup-bottom-start {
   margin: 0px;
   padding: 0px;
   left: -120px;
@@ -120,6 +143,9 @@ export default {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-top: 0px;
 }
+/* .myhead .popup{
+  left: -120px;
+} */
 .myhead .el-menu--horizontal .el-menu .el-menu-item,
 .myhead .el-menu--horizontal .el-menu .el-submenu__title {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -128,12 +154,10 @@ export default {
 .myhead .el-menu--horizontal .el-menu .el-submenu__title:hover {
   color: #fff;
 }
-.myhead .account{
-  text-align: left !important;
-
-}
-.myhead .register{
+.myhead .account {
   text-align: left !important;
 }
-
+.myhead .register {
+  text-align: left !important;
+}
 </style>

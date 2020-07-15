@@ -2,11 +2,11 @@
 
   <el-submenu :popper-append-to-body="false"
               :index='num' v-if="data" >
-    <template slot="title">游戏</template>
+    <template slot="title">{{title}}</template>
     <el-menu-item v-for="(item,index) in data"
                   :key="index"
                   :data="item">
-      <game-icon :size="0"
+      <game-icon :size="item.size"
                  :type="item.type"></game-icon>
 
       {{item.GameName}}
@@ -20,7 +20,8 @@ import GameIcon from '@/components/GameIcon/GameIcon'
 export default {
   props: {
   data: {},
-  num:{}
+  num:{},
+  title:{}
   },
   methods:{
     
