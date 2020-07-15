@@ -3,7 +3,7 @@
         <el-carousel @change="Am" height="300px" :interval="5000" arrow="hover">
             <el-carousel-item v-for="item in Carousel" :key="item.id">
                 <img ref="imgAms" class="img" :src="item.bgImgUrl"/>
-                <div v-show="isShow" ref="divAms" class="box">
+                <div class="box">
                     <img class="icon" :src="item.icon"/>
                     <div class="announcement">
                         <p>{{ item.announcement }}</p>
@@ -14,21 +14,12 @@
         </el-carousel>
     </div>
 </template>
-
 <script>
     const SCALE = 1.05
     export default {
         name: 'carousel',
-        data() {
-          return {
-              isShow: [false,false,false]
-          }
-        },
         props: {
             Carousel: {}
-        },
-        created() {
-            this.Am(0)
         },
         methods: {
             Am(key) {

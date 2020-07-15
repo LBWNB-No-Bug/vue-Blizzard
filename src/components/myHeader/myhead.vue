@@ -46,8 +46,6 @@ export default {
 
 <style>
 * {
-  margin: 0px;
-  padding: 0px;
   list-style: none;
   user-select: none;
 }
@@ -132,7 +130,7 @@ export default {
 }
 .myhead .account{
   text-align: left !important;
-  
+
 }
 .myhead .register{
   text-align: left !important;

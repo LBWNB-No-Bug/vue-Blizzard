@@ -1,19 +1,19 @@
 <template>
 	<div id="footer">
-		<img :src="this.logo" height="100" width="170"/>
-		<div class="mtbt20">
+		<img id="footlogo" :src="logo" height="100" width="170"/>
+		<div class="footnav mtbt20">
 			<ul>
-				<li><a href="#" class="f-17">工作机会</a></li>
+				<li><a href="#">工作机会</a></li>
 				<li>|</li>
-				<li><a href="#" class="f-17">关于</a></li>
+				<li><a href="#">关于</a></li>
 				<li>|</li>
-				<li><a href="#" class="f-17">支持</a></li>
+				<li><a href="#">支持</a></li>
 				<li>|</li>
-				<li><a href="#" class="f-17">媒体中心</a></li>
+				<li><a href="#">媒体中心</a></li>
 				<li>|</li>
-				<li><a href="#" class="f-17">API</a></li>
+				<li><a href="#">API</a></li>
 				<li>|</li>
-				<li><a href="#" class="f-17">安全中心</a></li>
+				<li><a href="#">安全中心</a></li>
 			</ul>
 		</div>
 		<div class="clearall"></div>
@@ -28,17 +28,11 @@
 		</div>
 		<div class="mtbt10">
 			<ul>
-				<li>
-					<p><a href="#">隐私</a></p>
-				</li>
+				<li><p><a href="#">隐私</a></p></li>
 				<li><p>|</p></li>
-				<li>
-					<p><a href="#">法律</a></p>
-				</li>
+				<li><p><a href="#">法律</a></p></li>
 				<li><p>|</p></li>
-				<li>
-					<p><a href="#">条款</a></p>
-				</li>
+				<li><p><a href="#">条款</a></p></li>
 			</ul>
 		</div>
 		<div class="clearall"></div>
@@ -73,12 +67,8 @@
 				<li><p>客服电话：0571-28090163</p></li>
 			</ul>
 		</div>
-		<div class="footicon mtbt10">
-			<a href="#"><img src="https://blznav.akamaized.net/img/legal/icon-cn-cyberpolice-8030c963aa438de3.gif" /></a>
-			<a href="#"><img src="https://blznav.akamaized.net/img/legal/icon-cn-zx100-1b6b7d14bf4a236f.gif" /></a>
-			<a href="#"><img src="https://blznav.akamaized.net/img/legal/icon-cn-sgs-668b0f6a4fb9c4bd.gif" /></a>
-			<a href="#"><img src="https://blznav.akamaized.net/img/legal/icon-cn-shjbzx-ddcf1546d4122b14.gif" /></a>
-			<a href="#"><img src="https://blznav.akamaized.net/img/legal/icon-cn-culture-logo-1eefdfed9b7decc1.png" /></a>
+		<div class="footicon mtbt10" >
+			<a href="#" v-for="(isrc,key) in imgsrc" :key="key"><img :src="isrc" /></a>
 		</div>
 		<div class="add">
 				<p>健康游戏忠告：抵制不良游戏  拒绝盗版游戏  注意自我保护  谨防受骗上当</p>
@@ -90,19 +80,27 @@
 <script>
 	export default {
 		name: "v-footer",
-		props: {
-			logo:""
+		data(){
+			return {
+				imgsrc:['https://blznav.akamaized.net/img/legal/icon-cn-cyberpolice-8030c963aa438de3.gif',
+				'https://blznav.akamaized.net/img/legal/icon-cn-zx100-1b6b7d14bf4a236f.gif',
+				'https://blznav.akamaized.net/img/legal/icon-cn-sgs-668b0f6a4fb9c4bd.gif',
+				'https://blznav.akamaized.net/img/legal/icon-cn-shjbzx-ddcf1546d4122b14.gif',
+				'https://blznav.akamaized.net/img/legal/icon-cn-culture-logo-1eefdfed9b7decc1.png'],
+				logo:'https://www.battlenet.com.cn/login/static/images/toolkit/defaults/logos/blizzard/blizzard-default.1C4OH.png'
+			}
 		}
 	}
 </script>
 
-<style>
+<style scoped>
 .clearall {
 	clear: both;
 }
 #footer{
-	background-color: #062959;
+	/*background-color: #062959;*/
 	text-align: center;
+	margin-top: 100px;
 }
 p,
 a {
@@ -122,9 +120,7 @@ a {
 	font-size: 14px;
 }
 .f-17 {
-	font-size: 17px;
-	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-	text-transform: uppercase;
+
 }
 
 .foot {
@@ -150,7 +146,11 @@ ul li {
 	display: inline-block;
 	list-style-type: none;
 }
-
+#footer .footnav ul li a{
+	font-size: 17px;
+	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+	text-transform: uppercase;
+}
 ul li a:hover {
 	color: #ffffff;
 }

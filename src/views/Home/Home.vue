@@ -117,12 +117,13 @@ export default {
   width: 100%;
   height: 66px;
   /*background-color: #42b983;*/
+  background-image: url("bg.png");
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 .ListGame-wrapper {
   width: 600px;
-  height: 40px;
+  height: 60px;
   margin: 0 auto;
   padding-top: 5px;
 }
@@ -147,7 +148,7 @@ export default {
   list-style: none;
   display: inline-block;
   padding-top: 10px;
-  overflow: hidden;
+  margin-left: 15px;
 }
 .main {
   min-height: 1500px;
