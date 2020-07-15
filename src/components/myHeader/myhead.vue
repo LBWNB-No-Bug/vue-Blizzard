@@ -1,91 +1,141 @@
 <template>
-  <header>
-    <div class="w">
-      <div class="left">
-        <i class="logo_icon" :style="{backgroundImage: 'url(' + this.logo + ')'}"></i>
-        <div class="nav_lable">商城</div>
-      </div>
-      <div class="right">
-        <div class="nav_lable">支持</div>
-        <div class="nav_lable">我的账号</div>
-        <div class="nav_win">
-          <div>
-            <br>
-            <el-button class="center"
-                       type="primary">登陆</el-button>
-            <br>
-            <el-button class="center"
-                       type="primary">账号注册</el-button>
-                       <br>
-            <el-button class="center"
-                       type="primary">免费注册</el-button>
-          </div>
-          <br>
-        </div>
-      </div>
-    </div>
-
-  </header>
+  <nav class="myhead">
+    <el-menu :default-active="activeIndex"
+             class="el-menu-demo"
+             mode="horizontal"
+             @select="handleSelect">
+      <el-menu-item class="myicon"
+                    index="1"></el-menu-item>
+      <el-menu-item index="2">商城</el-menu-item>
+      <el-menu-item class="right"
+                    index="3">支持</el-menu-item>
+      <el-submenu :popper-append-to-body="false"
+                  class="right"
+                  index="4">
+        <template slot="title">我的账号</template>
+        <el-menu-item>
+          <el-button class="login_but"
+                     type="primary">登陆</el-button>
+        </el-menu-item>
+        <el-menu-item class="account"> 账户 </el-menu-item>
+        <el-menu-item class="register"> 免费注册</el-menu-item>
+      </el-submenu>
+    </el-menu>
+  </nav>
 
 </template>
+
 <script>
-  export default {
-    props: {
-      logo:""
+
+
+export default {
+  data () {
+    return {
+      activeIndex: '1',
+      activeIndex4: '1'
+    };
+  },
+  methods: {
+    handleSelect (key, keyPath) {
+      console.log(key, keyPath);
     }
   }
+}
+
 </script>
-<style >
-header {
-  background-color: #062959;
+
+<style>
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  user-select: none;
+}
+.login_but {
+  height: 40px;
+  width: 200px;
+  border-radius: 0px;
+}
+.myhead {
   width: 100%;
 }
-.w {
-  display: block;
+.myhead .myicon {
+  background: url(https://www.battlenet.com.cn/login/static/images/toolkit/defaults/logos/blizzard/blizzard-default.1C4OH.png)
+    no-repeat;
+  background-size: 100% 60%;
+  width: 80px;
+  background-position: center;
+}
+.myhead .right {
+  position: relative;
+  left: 1296px;
+}
+.myhead .el-menu-demo {
   width: 1600px;
   margin: auto;
 }
-.logo_icon {
-  display: inline-block;
-  background: no-repeat;
-  background-size: 100% 100%;
+.myhead .el-menu.el-menu--horizontal.el-menu {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.myhead .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.myhead .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.myhead .el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.myhead .el-menu--horizontal > .el-submenu.is-active .el-submenu__title {
+  border: none;
+  color: #909399;
+}
+.myhead .el-menu--horizontal > .el-submenu:focus .el-submenu__title,
+.myhead .el-menu--horizontal > .el-submenu:hover .el-submenu__title {
+  color: #fff;
+}
+.myhead .el-menu--horizontal > .el-menu-item.is-active {
+  border: none;
+  color: #909399;
+}
+.myhead .el-menu--horizontal .el-menu--popup > .is-active:hover {
+  background-color: rgba(57, 63, 78, 1);
+  color: #fff;
   width: 100px;
-  height: 50px;
-  margin-right: 20px;
 }
-.nav_lable {
-  display: inline-block;
-  font-size: 20px;
-  margin-top: 15px;
-  padding-right: 20px;
-  vertical-align: top;
-  color: rgba(180, 190, 203, 1);
+.myhead .el-menu--collapse .el-menu .el-submenu,
+.el-menu--popup {
+  min-width: 130px;
 }
-.nav_lable:hover {
-  color: #ffffff;
+
+.myhead .el-menu--horizontal .el-menu .el-menu-item,
+.myhead .el-menu--horizontal .el-menu .el-submenu__title {
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
 }
-.left {
-  display: inline-block;
+.right .el-menu--popup-bottom-start {
+  margin: 0px;
+  padding: 0px;
+  left: -120px;
+  background-image: linear-gradient(rgba(35, 44, 59, 1), rgba(20, 24, 33, 1));
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 0px;
 }
-.right {
-  height: 50px;
-  float: right;
-  top: 8px;
-  right: 20px;
+.myhead .el-menu--horizontal .el-menu .el-menu-item,
+.myhead .el-menu--horizontal .el-menu .el-submenu__title {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
-.nav_win {
-  position: relative;
-  z-index: 1;
-  right: 100px;
-  top: 10px;
-  width: 330px;
-  background-color: #66ccff;
-  display: none;
+.myhead .el-menu--horizontal .el-menu .el-menu-item:hover,
+.myhead .el-menu--horizontal .el-menu .el-submenu__title:hover {
+  color: #fff;
 }
-.nav_win .center {
-  display: grid;
-  vertical-align: auto;
-  width: 300px;
-  margin: auto;
+.myhead .account{
+  text-align: left !important;
+  
 }
+.myhead .register{
+  text-align: left !important;
+}
+
 </style>

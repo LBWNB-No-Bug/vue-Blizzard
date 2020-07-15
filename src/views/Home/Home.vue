@@ -1,6 +1,7 @@
 <template>
   <div class="body">
-    <myheader :logo="logo"></myheader>
+    <myheader/>
+    <headTow/>
     <div class="main">
       <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">
@@ -36,6 +37,7 @@ import myheader from '@/components/myHeader/myhead'
 import VFooter from '@/components/footer/footer'
 import Carousel from '@/components/Carousel/carousel'
 import ListGame from '@/components/ListGame/listgame'
+import headTow from '@/components/headTow/headTow'
 
 import {getHome} from '@/api'
 
@@ -71,7 +73,8 @@ export default {
     GameIcon,
     myheader,
     Carousel,
-    ListGame
+    ListGame,
+    headTow
   }
 }
 </script>
