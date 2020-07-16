@@ -97,7 +97,7 @@ export default {
 }
 .navBorder .right {
   position: relative;
-  left: 1045px;
+  left: 1021px;
 }
 .navBorder .el-menu-demo {
   width: 1600px;

@@ -2,7 +2,8 @@
   <div ref="body" class="body" onscroll="">
     <myheader/>
     <headTow/>
-    <div class="main" >
+    <userCenter/>
+    <div class="main">
       <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">
         <div class="ListGame-wrapper">
@@ -41,6 +42,7 @@ import VFooter from '@/components/footer/footer'
 import Carousel from '@/components/Carousel/carousel'
 import ListGame from '@/components/ListGame/listgame'
 import headTow from '@/components/headTow/headTow'
+import userCenter from '@/components/userCenter/userCenter'
 
 import {getHome} from '@/api'
 
@@ -52,9 +54,7 @@ export default {
       ListIcon: {},
       logo:"",
       ListGame: [],
-      list: ["推荐", "精选", "当下流行", "热门赠礼"],
-      arr:[1,2,3,4,5],
-      pos:0
+      list: ["推荐", "精选", "当下流行", "热门赠礼"]
     }
   },
   created() {
@@ -79,7 +79,8 @@ export default {
     myheader,
     Carousel,
     ListGame,
-    headTow
+    headTow,
+    userCenter
   }
 }
 </script>

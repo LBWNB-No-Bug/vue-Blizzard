@@ -14,14 +14,16 @@
                   index="4">
         <template slot="title">我的账号</template>
         <el-menu-item class="popup">
-          <el-button class="login_but"
+          <el-button v-if='islogin'
+                     class="login_but"
                      type="primary">登陆</el-button>
+          <div v-else>cc</div>
         </el-menu-item>
         <el-menu-item class="account">
           <game-icon :size="3"
                      :type="0"></game-icon> 账户
         </el-menu-item>
-       
+
         <el-menu-item class="register">
           <game-icon :size="3"
                      :type="0"></game-icon>免费注册
@@ -40,7 +42,8 @@ export default {
   data () {
     return {
       activeIndex: '1',
-      activeIndex4: '1'
+      activeIndex4: '1',
+      islogin: true
     };
   },
   methods: {
@@ -66,17 +69,17 @@ export default {
   border-radius: 0;
   text-decoration: none;
 }
-body{
+body {
   min-width: 1800px;
 }
-body{
+body {
   min-width: 1800px;
 }
 .myhead {
   min-width: 1600px;
   background-image: url("bg.png");
 }
-.myhead a{
+.myhead a {
   text-decoration: none;
 }
 .myhead .myicon {
