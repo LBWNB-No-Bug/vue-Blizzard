@@ -14,21 +14,18 @@
                   index="4">
         <template slot="title">我的账号</template>
         <el-menu-item class="popup">
-          <router-link to="/login">
-            <el-button class="login_but"
+          <el-button class="login_but"
                      type="primary">登陆</el-button>
-          </router-link>
         </el-menu-item>
         <el-menu-item class="account">
           <game-icon :size="3"
                      :type="0"></game-icon> 账户
         </el-menu-item>
-        <router-link to="/register">
-          <el-menu-item class="register">
-            <game-icon :size="3"
-                       :type="0"></game-icon> 免费注册
-          </el-menu-item>
-        </router-link>
+       
+        <el-menu-item class="register">
+          <game-icon :size="3"
+                     :type="0"></game-icon>免费注册
+        </el-menu-item>
       </el-submenu>
     </el-menu>
   </nav>
@@ -68,6 +65,9 @@ export default {
   width: 200px;
   border-radius: 0;
   text-decoration: none;
+}
+body{
+  min-width: 1800px;
 }
 body{
   min-width: 1800px;

@@ -6,7 +6,8 @@
       <el-menu-item index="1">
         <game-icon :size="4"
                    :type="3"></game-icon>
-         &nbsp 主页</el-menu-item>
+        主页
+      </el-menu-item>
       <popup v-bind:data="ListIcon"
              num="2"
              title="游戏" />
@@ -17,7 +18,7 @@
       <el-menu-item class="right"
                     index="5">
         <game-icon :size="4"
-                   :type="2"></game-icon> &nbsp 心愿单
+                   :type="2"></game-icon> 心愿单
       </el-menu-item>
       <popup class="right"
              v-bind:data="ds"
