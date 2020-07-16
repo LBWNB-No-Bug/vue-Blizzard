@@ -2,7 +2,7 @@
   <div ref="body" class="body" onscroll="">
     <myheader/>
     <headTow/>
-    <userCenter/>
+<!--    <userCenter/>-->
     <div class="main">
       <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">
@@ -42,7 +42,6 @@ import VFooter from '@/components/footer/footer'
 import Carousel from '@/components/Carousel/carousel'
 import ListGame from '@/components/ListGame/listgame'
 import headTow from '@/components/headTow/headTow'
-import userCenter from '@/components/userCenter/userCenter'
 
 import {getHome} from '@/api'
 
@@ -79,8 +78,7 @@ export default {
     myheader,
     Carousel,
     ListGame,
-    headTow,
-    userCenter
+    headTow
   }
 }
 </script>
