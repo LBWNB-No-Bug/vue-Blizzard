@@ -1,316 +1,326 @@
 {
   "data": [
     {
-      "title": "新玩家起步",
-      "text": "魔兽世界新玩家？从这里开始吧。",
+      "name": "MSSJ",
+      "bg": "http://product.cnc.blzstatic.cn//38/d6150070253dd80803aec718563233ed-WoW_9.0_BattleNet_Shop_2200x700.jpg",
       "content": [
         {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//78/5783b3029305aab6266a0eb765889cfa-WoW_Steamscale_Incinerator_Plus_Panda_Cub_Product_Page_prod-card-vert_TS01.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界》:游戏时间",
-          "iconType": 1,
-          "Golden": "《欢迎进入<魔兽世界》和《魔兽世界》经典怀旧服",
-          "discount": 1,
-          "white": "游戏时间",
-          "price": 75
+          "title": "新玩家起步",
+          "text": "魔兽世界新玩家？从这里开始吧。",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//78/5783b3029305aab6266a0eb765889cfa-WoW_Steamscale_Incinerator_Plus_Panda_Cub_Product_Page_prod-card-vert_TS01.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界》:游戏时间",
+              "iconType": 1,
+              "Golden": "《欢迎进入<魔兽世界》和《魔兽世界》经典怀旧服",
+              "discount": 1,
+              "white": "游戏时间",
+              "price": 75
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界®:暗影国度》数字礼包",
+              "iconType": 1,
+              "Golden": "立即购买",
+              "discount": 1,
+              "white": "礼包",
+              "price": 198
+            }
+          ]
         },
         {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界®:暗影国度》数字礼包",
-          "iconType": 1,
-          "Golden": "立即购买",
-          "discount": 1,
-          "white": "礼包",
-          "price": 198
+          "title": "虚拟坐骑",
+          "text": "坐稳了————你的骑术有多高,坐骑就能跑多快",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//2d/efecfb33b64f9a2c9aee1aaffa530aeb-WoW_Steamscale_Incinerator_StandAlone_prod-card-vert_TS01.jpg",
+              "Jump": "#",
+              "text": "汽鳞焚化者&熊猫宝宝",
+              "iconType": 1,
+              "Golden": "购买180天游戏时间即可获赠坐骑和宠物!",
+              "discount": 1,
+              "white": "虚拟坐骑",
+              "price": 120
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//6/47a05ae6f1951c34dd0395b8fec03398-NAEU-WoW_LunarNewYear2019_Standalone_Product_Vertical_MN01.png",
+              "Jump": "#",
+              "text": "霍格鲁斯,鸿运亥客",
+              "iconType": 1,
+              "Golden": "霍格鲁斯坐骑现已回归,并将在夏日促销结束后继续在商城出售。",
+              "discount": 1,
+              "white": "虚拟坐骑",
+              "price": 120
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//4a/965a81ed02e9fe701944aeb246eef4d2-WoW_LNY_2020_Shop_Product_Page_Assets_prod-card-vert_TS02.jpg",
+              "Jump": "#",
+              "text": "吱吱,狡黠灵兽",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "虚拟坐骑",
+              "price": 120
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//ff2/b67b06497b28125ca5534d4611da0221-WoW_AlabasterMounts_Page_Assets_prod_card_vert_TS06.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界®》15周年大理石坐骑",
+              "iconType": 1,
+              "Golden": "用大理石雕塑来欢庆15周年",
+              "discount": 1,
+              "white": "虚拟坐骑",
+              "price": 120
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//f8e/10487dae1d05196140b0504c9120be06-prod-card-vert_Standalone.jpg",
+              "Jump": "#",
+              "text": "希尔维安神游者",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "虚拟坐骑",
+              "price": 120
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//f9a/b4e7fef53bcb8022a6a51d787de589aa-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "飞翼守护者",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "虚拟坐骑",
+              "price": 120
+            }
+          ]
+        },
+        {
+          "title": "虚拟宠物",
+          "text": "收养小宠物,带着新伙伴在宠物对战中大展拳脚。",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//27/86845b372c1125f1858f9115371b96f0-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "燃烬猫仔",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.49,
+              "white": "虚拟宠物",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//18/967e891363f39812341bf3333118e057-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "小拉格",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.49,
+              "white": "虚拟宠物",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//5b/5aa7cd928ebaabad08ba57b4b32b8b62-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "守护巨龙之魂",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.49,
+              "white": "虚拟宠物",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//5/2855347c638dcdda49a265a3324c92d5-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "暮光",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.49,
+              "white": "虚拟宠物",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//f96/cae14edd3dd454fae9e4656d00425d1c-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "小克",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "虚拟宠物",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//4f/18d364704186764d2dc887e4401cac78-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "熊猫人僧侣",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "虚拟宠物",
+              "price": 45
+            }
+          ]
+        },
+        {
+          "title": "虚拟玩具",
+          "text": "将各种趣味玩具加入你的游戏收藏,逗乐你的盟友或是捉弄你的敌人!",
+          "bg": "http://product.cnc.blzstatic.cn//38/d6150070253dd80803aec718563233ed-WoW_9.0_BattleNet_Shop_2200x700.jpg",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//ff6/7eb316750c5834e1990b5efbd3f41fc8-WoW_Promo_Esports_Toy_Transformer_Product_Card_Vert_MN02f.jpg",
+              "Jump": "#",
+              "text": "幻变者道标",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "虚拟玩具",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//e/bc07dba72b0c1496e6d2801c7f1d9a4b-WoW_Promo_Esports_Toy_Fireworks_Product_Card_Vert_MN02.jpg",
+              "Jump": "#",
+              "text": "狮王之傲和部落之力烟花",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.49,
+              "white": "虚拟玩具",
+              "price": 45
+            }
+          ]
+        },
+        {
+          "title": "礼包",
+          "text": "用一系列虚拟好礼来犒劳自己。",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界®:暗影国度》数字礼包",
+              "iconType": 1,
+              "Golden": "立即购买",
+              "discount": 1,
+              "white": "礼包",
+              "price": 198
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//4/a872714ce2f05221623f1d2a9c19172f-apac-vertical.png",
+              "Jump": "#",
+              "text": "《魔兽世界®:争霸艾泽拉斯》数字典藏礼包",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.5,
+              "white": "礼包",
+              "price": 240
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//fe1/86bfcb57f58efd28f26b8eceb62ff79f-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界®:军团再临》数字典藏礼包",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.5,
+              "white": "礼包",
+              "price": 240
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//f9d/b32c4234df3bc745d486ce552fcf7503-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界®:德拉诺之王》数字典藏礼包",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 0.5,
+              "white": "礼包",
+              "price": 240
+            }
+          ]
+        },
+        {
+          "title": "游戏服务",
+          "text": "自定义你的游戏体验。",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//fa5/77bf47999ba4a0f3903c5bc7068e601c-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "种族变更服务",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "游戏服务",
+              "price": 90
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//43/a6bc6125d56cf422332f939653283e4c-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "阵营转换服务",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "游戏服务",
+              "price": 120
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//49/1fbfd1aedb7d4c407b00446b46dff656-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "角色转换服务",
+              "iconType": 1,
+              "Golden": "可用于《魔兽世界®》经典怀旧服",
+              "discount": 1,
+              "white": "游戏服务",
+              "price": "了解详情"
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//f8c/c4799c9e50676104711bc362fc049a6a-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "角色定制服务",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "游戏服务",
+              "price": 45
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//ffa/b6d8de6927e769ad9407bf79ceaa210b-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "工会服务",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "游戏服务",
+              "price": "了解详情"
+            },
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//77/32093f4734232e094a898ad695852aa6-prod-card-tall.jpg",
+              "Jump": "#",
+              "text": "时光徽章",
+              "iconType": 1,
+              "Golden": "在《魔兽世界》经典怀旧服上线了！",
+              "discount": 1,
+              "white": "游戏服务",
+              "price": 90
+            }
+          ]
+        },
+        {
+          "title": "周边商品",
+          "text": "前往周边商城尽情选购",
+          "content": [
+            {
+              "bgImgUrl": "http://product.cnc.blzstatic.cn//a/1172e1ffce98878420869244be4bc6da-wow-700-850.jpg",
+              "Jump": "#",
+              "text": "《魔兽世界®》:周边商品",
+              "iconType": 1,
+              "Golden": "",
+              "discount": 1,
+              "white": "周边商城",
+              "price": "了解详情"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "虚拟坐骑",
-      "text": "坐稳了————你的骑术有多高,坐骑就能跑多快",
-      "content": [
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//2d/efecfb33b64f9a2c9aee1aaffa530aeb-WoW_Steamscale_Incinerator_StandAlone_prod-card-vert_TS01.jpg",
-          "Jump": "#",
-          "text": "汽鳞焚化者&熊猫宝宝",
-          "iconType": 1,
-          "Golden": "购买180天游戏时间即可获赠坐骑和宠物!",
-          "discount": 1,
-          "white": "虚拟坐骑",
-          "price": 120
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//6/47a05ae6f1951c34dd0395b8fec03398-NAEU-WoW_LunarNewYear2019_Standalone_Product_Vertical_MN01.png",
-          "Jump": "#",
-          "text": "霍格鲁斯,鸿运亥客",
-          "iconType": 1,
-          "Golden": "霍格鲁斯坐骑现已回归,并将在夏日促销结束后继续在商城出售。",
-          "discount": 1,
-          "white": "虚拟坐骑",
-          "price": 120
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//4a/965a81ed02e9fe701944aeb246eef4d2-WoW_LNY_2020_Shop_Product_Page_Assets_prod-card-vert_TS02.jpg",
-          "Jump": "#",
-          "text": "吱吱,狡黠灵兽",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "虚拟坐骑",
-          "price": 120
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//ff2/b67b06497b28125ca5534d4611da0221-WoW_AlabasterMounts_Page_Assets_prod_card_vert_TS06.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界®》15周年大理石坐骑",
-          "iconType": 1,
-          "Golden": "用大理石雕塑来欢庆15周年",
-          "discount": 1,
-          "white": "虚拟坐骑",
-          "price": 120
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//f8e/10487dae1d05196140b0504c9120be06-prod-card-vert_Standalone.jpg",
-          "Jump": "#",
-          "text": "希尔维安神游者",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "虚拟坐骑",
-          "price": 120
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//f9a/b4e7fef53bcb8022a6a51d787de589aa-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "飞翼守护者",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "虚拟坐骑",
-          "price": 120
-        }
-      ]
-    },
-    {
-      "title": "虚拟宠物",
-      "text": "收养小宠物,带着新伙伴在宠物对战中大展拳脚。",
-      "content": [
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//27/86845b372c1125f1858f9115371b96f0-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "燃烬猫仔",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.49  ,
-          "white": "虚拟宠物",
-          "price": 45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//18/967e891363f39812341bf3333118e057-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "小拉格",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.49,
-          "white": "虚拟宠物",
-          "price":45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//5b/5aa7cd928ebaabad08ba57b4b32b8b62-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "守护巨龙之魂",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.49,
-          "white": "虚拟宠物",
-          "price":45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//5/2855347c638dcdda49a265a3324c92d5-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "暮光",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.49,
-          "white": "虚拟宠物",
-          "price":45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//f96/cae14edd3dd454fae9e4656d00425d1c-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "小克",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "虚拟宠物",
-          "price":45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//4f/18d364704186764d2dc887e4401cac78-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "熊猫人僧侣",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "虚拟宠物",
-          "price":45
-        }
-      ]
-    },
-    {
-      "title": "虚拟玩具",
-      "text": "将各种趣味玩具加入你的游戏收藏,逗乐你的盟友或是捉弄你的敌人!",
-      "content": [
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//ff6/7eb316750c5834e1990b5efbd3f41fc8-WoW_Promo_Esports_Toy_Transformer_Product_Card_Vert_MN02f.jpg",
-          "Jump": "#",
-          "text": "幻变者道标",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "虚拟玩具",
-          "price": 45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//e/bc07dba72b0c1496e6d2801c7f1d9a4b-WoW_Promo_Esports_Toy_Fireworks_Product_Card_Vert_MN02.jpg",
-          "Jump": "#",
-          "text": "狮王之傲和部落之力烟花",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.49,
-          "white": "虚拟玩具",
-          "price": 45
-        }
-      ]
-    },
-    {
-      "title": "礼包",
-      "text": "用一系列虚拟好礼来犒劳自己。",
-      "content": [
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//36/66a9f4f80640962dff8bc1ae43d9f0d0-WoW_9.0_ProductPage_ASIA_Collection_ProductCard_Vert_Epic_MN01.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界®:暗影国度》数字礼包",
-          "iconType": 1,
-          "Golden": "立即购买",
-          "discount": 1,
-          "white": "礼包",
-          "price": 198
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//4/a872714ce2f05221623f1d2a9c19172f-apac-vertical.png",
-          "Jump": "#",
-          "text": "《魔兽世界®:争霸艾泽拉斯》数字典藏礼包",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.5,
-          "white": "礼包",
-          "price": 240
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//fe1/86bfcb57f58efd28f26b8eceb62ff79f-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界®:军团再临》数字典藏礼包",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.5,
-          "white": "礼包",
-          "price": 240
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//f9d/b32c4234df3bc745d486ce552fcf7503-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界®:德拉诺之王》数字典藏礼包",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 0.5,
-          "white": "礼包",
-          "price": 240
-        }
-      ]
-    },
-    {
-      "title": "游戏服务",
-      "text": "自定义你的游戏体验。",
-      "content": [
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//fa5/77bf47999ba4a0f3903c5bc7068e601c-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "种族变更服务",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "游戏服务",
-          "price": 90
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//43/a6bc6125d56cf422332f939653283e4c-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "阵营转换服务",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "游戏服务",
-          "price": 120
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//49/1fbfd1aedb7d4c407b00446b46dff656-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "角色转换服务",
-          "iconType": 1,
-          "Golden": "可用于《魔兽世界®》经典怀旧服",
-          "discount": 1,
-          "white": "游戏服务",
-          "price": "了解详情"
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//f8c/c4799c9e50676104711bc362fc049a6a-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "角色定制服务",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "游戏服务",
-          "price": 45
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//ffa/b6d8de6927e769ad9407bf79ceaa210b-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "工会服务",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "游戏服务",
-          "price": "了解详情"
-        },
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//77/32093f4734232e094a898ad695852aa6-prod-card-tall.jpg",
-          "Jump": "#",
-          "text": "时光徽章",
-          "iconType": 1,
-          "Golden": "在《魔兽世界》经典怀旧服上线了！",
-          "discount": 1,
-          "white": "游戏服务",
-          "price": 90
-        }
-      ]
-    },
-    {
-      "title": "周边商品",
-      "text": "前往周边商城尽情选购",
-      "content": [
-        {
-          "bgImgUrl": "http://product.cnc.blzstatic.cn//a/1172e1ffce98878420869244be4bc6da-wow-700-850.jpg",
-          "Jump": "#",
-          "text": "《魔兽世界®》:周边商品",
-          "iconType": 1,
-          "Golden": "",
-          "discount": 1,
-          "white": "周边商城",
-          "price": "了解详情"
-        }
-      ]
+      "name": "aabb"
     }
   ]
 }

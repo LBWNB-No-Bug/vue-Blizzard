@@ -1,8 +1,8 @@
 <template>
-  <div class="body">
+  <div ref="body" class="body" onscroll="">
     <myheader/>
     <headTow/>
-    <div class="main">
+    <div class="main" >
       <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">
         <div class="ListGame-wrapper">
@@ -25,6 +25,9 @@
                  :data="item"
                  :key="index"
         ></list-game>
+        <el-backtop class="top">
+            <i class="el-icon-caret-top"></i>
+        </el-backtop>
     </div>
     <v-footer :logo="logo"></v-footer>
   </div>
@@ -49,7 +52,9 @@ export default {
       ListIcon: {},
       logo:"",
       ListGame: [],
-      list: ["推荐", "精选", "当下流行", "热门赠礼"]
+      list: ["推荐", "精选", "当下流行", "热门赠礼"],
+      arr:[1,2,3,4,5],
+      pos:0
     }
   },
   created() {
@@ -87,6 +92,25 @@ export default {
 .body {
   background-color: #062959;
   font-family: "微软雅黑";
+}
+.top {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 0;
+}
+.top:hover {
+    background-color: rgba(0,0,0,.5);
+}
+.top:hover .el-icon-caret-top {
+    color: #5cb9ec;
+}
+.top .el-icon-caret-top {
+  font-size: 32px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  color: #009ae4;
 }
 .el-carousel__arrow--left,.el-carousel__arrow--right{
   width: 40px;

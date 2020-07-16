@@ -136,11 +136,11 @@ a {
 	width: 700px;
 }
 
-ul {
+#footer ul {
 	margin: 0 auto;
 	text-align: center;
 }
-ul li {
+#footer ul li {
 	margin-left: 10px;
 	display: inline-block;
 	list-style-type: none;
@@ -150,7 +150,7 @@ ul li {
 	transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 	text-transform: uppercase;
 }
-ul li a:hover {
+#footer ul li a:hover {
 	color: #ffffff;
 }
 .copyright {

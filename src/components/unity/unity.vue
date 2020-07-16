@@ -1,7 +1,7 @@
 <template>
     <div class="unity">
         <div class="game"
-             :style="{backgroundImage: 'url(' + item.bgImgUrl + ')'}"
+             :style="{backgroundImage: `url( ${item.bgImgUrl} )`}"
         >
             <div class="conten-wrapper">
                 <game-icon class="game-icon"
@@ -34,7 +34,6 @@
         height: 414px;
         width: 288px;
         margin-top: 15px;
-        overflow: hidden;
         position: relative;
         z-index: 10;
         background-repeat: no-repeat;
