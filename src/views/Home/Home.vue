@@ -2,7 +2,7 @@
   <div ref="body" class="body" onscroll="">
     <myheader/>
     <headTow/>
-<!--    <userCenter/>-->
+    <userCenter/>
     <div class="main">
       <carousel :Carousel="Carousel"></carousel>
       <div class="ListGameIco">
