@@ -5,7 +5,7 @@
     <el-menu-item v-for="(item,index) in data"
                   :key="index"
                   :data="item">
-      <router-link to="/GameContent">
+      <router-link class="route" to="/GameContent">
         <game-icon :size="item.size"
                    :type="item.type"></game-icon>
           {{item.GameName}}
@@ -22,10 +22,6 @@ export default {
   num:{},
   title:{}
   },
-  methods:{
-
-  }
-  ,
   components: {
     GameIcon
   }
@@ -33,6 +29,10 @@ export default {
 </script>
 
 <style scoped>
+  .route {
+    text-decoration: none;
+    color: #909399;
+  }
 .el-menu--horizontal .el-menu .el-menu-item,
 .el-menu--horizontal .el-menu .el-submenu__title {
   background-color: rgba(26, 34, 48, 1);

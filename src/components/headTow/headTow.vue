@@ -4,10 +4,11 @@
              mode="horizontal"
              @select="handleSelect2">
         <el-menu-item index="1">
-          <router-link to="/">
-          <game-icon :size="4"
-                     :type="3"></game-icon>
-           &nbsp 主页</router-link>
+          <router-link class="route" to="/">
+            <game-icon :size="4"
+                       :type="3"></game-icon>
+             &nbsp 主页
+          </router-link>
         </el-menu-item>
       <popup v-bind:data="ListIcon"
              num="2"
@@ -80,6 +81,9 @@ export default {
 </script>
 
 <style>
+  .route {
+    text-decoration: none;
+  }
 * {
   list-style: none;
   user-select: none;
