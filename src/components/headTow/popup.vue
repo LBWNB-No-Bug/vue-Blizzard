@@ -5,7 +5,7 @@
     <el-menu-item v-for="(item,index) in data"
                   :key="index"
                   :data="item">
-      <router-link class="route" to="/GameContent">
+      <router-link target="_blank" class="route" :to="{path:'/GameContent', query:{name: gameName[index]}}">
         <game-icon :size="item.size"
                    :type="item.type"></game-icon>
           {{item.GameName}}
@@ -17,10 +17,15 @@
 <script>
 import GameIcon from '@/components/GameIcon/GameIcon'
 export default {
+  data() {
+    return {
+      gameName:['SWXF','MSSJ','LSCS','FBYX','MSZB3','AHPHS3','XJZB2','XJZB']
+    }
+  },
   props: {
-  data: {},
-  num:{},
-  title:{}
+    data: {},
+    num:{},
+    title:{},
   },
   components: {
     GameIcon

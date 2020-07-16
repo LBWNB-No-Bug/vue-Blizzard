@@ -2,7 +2,6 @@
     <div class="game-content">
         <myheader/>
         <headTow/>
-<!--        <carousel :Carousel="Carousel"></carousel>-->
         <div class="carousel-mf">
             <img class="car-ico" :src="this.ico" width="230" height="150">
             <img class="car-bg" :src="this.bg">
@@ -23,7 +22,7 @@
                     <div class="nav-right">
                         <div class="sel-list">
                             <label for="sel1">分组方式</label>
-                            <select id="sel1" @click="big">
+                            <select id="sel1">
                                 <option>按类别分组</option>
                                 <option>不分组</option>
                             </select>
@@ -31,7 +30,7 @@
                         </div>
                         <div class="sel-list">
                             <label for="sel2">分组方式</label>
-                            <select id="sel2" @click="big">
+                            <select id="sel2">
                                 <option>精选</option>
                                 <option>价格：最低</option>
                                 <option>价格：最高</option>
@@ -65,7 +64,6 @@
 <script>
     import myheader from '@/components/myHeader/myhead'
     import VFooter from '@/components/footer/footer'
-    import Carousel from '@/components/Carousel/carousel'
     import headTow from '@/components/headTow/headTow'
     import Unity from '@/components/unity/unity'
 
@@ -75,7 +73,6 @@
         name: 'GameContent',
         data() {
             return {
-                name: "MXSJ",
                 content: [],
                 titleList: [],
                 bg: "",
@@ -83,12 +80,14 @@
             }
         },
         created() {
-            this._getGameContent('MSSJ')
+            this._getGameContent()
         },
         methods: {
-            _getGameContent(name) {
+            _getGameContent() {
+                const name = this.$route.query.name
+                // console.log(name)
                 getGameContent().then( (res) => {
-                    res.data.forEach((val,index) => {
+                    res.data.forEach((val) => {
                         if(val.name === name)
                         {
                             this.bg = val.bg
@@ -101,15 +100,11 @@
                         this.titleList.push(tit.title)
                     })
                 })
-            },
-            big() {
-
             }
         },
         components: {
             myheader,
             VFooter,
-            Carousel,
             headTow,
             Unity
         }
@@ -158,8 +153,8 @@
     .nav-left, .nav-right {
         display: inline-block;
     }
-    .nav-right {
-        margin-left: 600px;
+    .nav-left {
+        width: 1114px;
     }
     .nav-left .nav-list {
         display: inline-block;

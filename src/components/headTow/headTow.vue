@@ -4,7 +4,7 @@
              mode="horizontal"
              @select="handleSelect2">
         <el-menu-item index="1">
-          <router-link class="route" to="/">
+          <router-link target="_blank" class="route" to="/">
             <game-icon :size="4"
                        :type="3"></game-icon>
              &nbsp 主页

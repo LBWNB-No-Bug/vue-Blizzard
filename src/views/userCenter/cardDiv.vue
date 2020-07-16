@@ -27,7 +27,7 @@ export default {
   background-color: rgba(9, 85, 135, 0.4);
   border-top: 1px solid rgba(9, 85, 135, 0.6);
 }
-h3 {
+.longW h3 {
   font-size: 25px;
   color: #fff;
 }

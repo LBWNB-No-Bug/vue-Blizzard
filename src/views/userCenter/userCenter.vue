@@ -84,11 +84,11 @@ export default {
 .el-menu {
   background-color: rgba(21, 26, 35, 0.6);
 }
-ul li {
+.userW ul li {
   margin: 0px !important;
   text-align: left;
 }
-ul {
+.userW ul {
   text-align: left;
 }
 .el-menu-item,
@@ -99,7 +99,7 @@ ul {
 }
 .el-menu-item {
   color: #fff;
-  
+
 }
 .el-menu{
 border-right: 0px;

@@ -76,7 +76,7 @@
 
   </div>
 </template>
- 
+
 <script>
 
 import cardDiv from "./cardDiv"
@@ -148,7 +148,7 @@ export default {
   margin-top: 30px;
   font-size: 16px;
 }
-h1 {
+.w h1 {
   font-size: 36px;
   padding-bottom: 30px;
   color: #fff;
