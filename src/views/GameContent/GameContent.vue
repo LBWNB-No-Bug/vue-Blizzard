@@ -76,7 +76,7 @@
                 content: [],
                 titleList: [],
                 bg: "",
-                ico: "//product.cnc.blzstatic.cn//f9a/7f5bf30fc831da74fb8ae1cf05a1cbe0-overwatch-cn-1000.png"
+                ico: ""
             }
         },
         created() {
@@ -91,6 +91,7 @@
                         if(val.name === name)
                         {
                             this.bg = val.bg
+                            this.ico = val.ico
                             val.content.forEach((item) => {
                                 this.content.push(item)
                             })
