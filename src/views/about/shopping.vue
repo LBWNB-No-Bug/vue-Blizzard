@@ -47,7 +47,7 @@
     }
     .c-wrapper {
         position: absolute;
-        left: 15px;
+        left: 30px;
         top: 18px;
     }
     .text-wrapper {
@@ -58,6 +58,7 @@
     .text-wrapper h1 {
         font-family: inherit;
         font-size: 24px;
+        height: 10px;
         font-weight: 500;
     }
     .text-wrapper p {
@@ -90,7 +91,6 @@
         font-size: 1.125rem;
         transition: all 0.3s;
         cursor:pointer;
-        margin-left: 5px;
         font-weight: 500;
     }
     .shopping-p h1:hover {

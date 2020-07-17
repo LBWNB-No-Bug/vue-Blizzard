@@ -57,7 +57,7 @@ export default {
 .w ul {
   text-align: left !important;
 }
-.w h1 {
+h1 {
   font-size: 36px;
   padding-bottom: 30px;
   color: #fff;

@@ -1,18 +1,20 @@
 <template>
     <div class="unity">
-        <div class="game"
-             :style="{backgroundImage: `url( ${item.bgImgUrl} )`}"
-        >
-            <div class="conten-wrapper">
-                <game-icon class="game-icon"
-                           :size=2
-                           :type="item.iconType >= 0?item.iconType:9"></game-icon>
-                <p class="text">{{item.text}}</p>
-                <p class="text-Golden">{{item.Golden}}</p>
-                <p class="text-white">{{item.white}}</p>
-                <p class="price">{{item.price === 0?"免费":"￥"+item.price}}</p>
+        <router-link to='/about'>
+            <div class="game"
+                 :style="{backgroundImage: `url( ${item.bgImgUrl} )`}"
+            >
+                <div class="conten-wrapper">
+                    <game-icon class="game-icon"
+                               :size=2
+                               :type="item.iconType >= 0?item.iconType:9"></game-icon>
+                    <p class="text">{{item.text}}</p>
+                    <p class="text-Golden">{{item.Golden}}</p>
+                    <p class="text-white">{{item.white}}</p>
+                    <p class="price">{{item.price === 0?"免费":"￥"+item.price}}</p>
+                </div>
             </div>
-        </div>
+        </router-link>
     </div>
 </template>
 

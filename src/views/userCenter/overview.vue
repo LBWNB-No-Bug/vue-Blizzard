@@ -76,7 +76,7 @@
 
   </div>
 </template>
-
+ 
 <script>
 
 import cardDiv from "./cardDiv"
@@ -134,7 +134,6 @@ export default {
 </script>
 
 <style scoped>
-
 .w {
   margin-left: 60px;
   width: 1240px;
@@ -147,6 +146,7 @@ export default {
   text-align: left;
   margin-top: 30px;
   font-size: 16px;
+  color: #afb3bb;
 }
 .w h1 {
   font-size: 36px;
@@ -160,6 +160,7 @@ export default {
 }
 .gameTime .p2 {
   font-size: 16px;
+  color: #afb3bb;
 }
 .el-input {
   width: 300px;
