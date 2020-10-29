@@ -1,3 +1,6 @@
+
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Lethalzh&show_icons=true&theme=dracula)
+
 # vue-blizzard
 
 ## 仿暴雪游戏商城
